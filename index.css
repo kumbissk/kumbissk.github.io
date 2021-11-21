@@ -1,0 +1,1040 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* -------------------------- menu -------------------------------- */
+
+.menu{
+    margin-left: 350px;
+    margin-top: 25px;
+    height: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.bout-one{
+    background: #CE0033;
+    justify-content: center;
+    align-items: center;
+    width: 87px;
+    height: 37px;
+    margin-left: 40px;
+    margin-top: -5px;
+    border-radius: 25px;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+/* ---------------------------Accueil------------------------------- */
+
+.Accueil {
+    background-image: url('img-accueil/lago.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 700px; 
+}
+
+.lead{
+    width: 636px;
+    height: 405px;
+    margin-right: 35%;
+    margin-top: 69px;
+}
+
+.accuei{
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    color: #FFFFFF;
+    height: 167px; 
+    width: 767px;
+    height: 167px;  
+}
+
+.bout-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 215px;
+    height: 63px;
+    background: #CE0033;
+    border-radius: 103px;
+    margin-top: 30px;
+}
+
+/* -------------------------history-------------------------------- */
+
+.history{
+    background-image: linear-gradient(253.7deg, rgba(206, 0, 51, 0.1386) -20.13%, rgba(255, 249, 249, 0) 100%);
+    padding: 70px;
+}
+
+.nom{
+
+    width: 407px;
+    height: 69px;
+    font-weight: 800;
+    font-size: 26px;
+    margin-top: 25px;
+    margin-left: 15px;
+    /* line-height: 49px; */
+    text-transform: uppercase;
+    color: #CE0033;
+}
+
+.p1{
+    margin-left: 15px;
+}
+
+/* -------------------------------Nouvelles------------------------ */
+
+.title-new{
+
+    color: #CE0033; 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 35px;
+}
+
+.title-info{
+    color: #CE0033;
+    font-weight : 800;
+    font-size: 30px;
+    width: 193px;
+    height: 60px;
+}
+
+.more-infos{
+    color: #CE0033;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -0.01em;
+    margin-top: 2rem;
+}
+
+.title-info1{
+    color: #CE0033;
+    font-weight : 800;
+    font-size: 30px;
+    width: 369px;
+    height: 56px;
+    margin-top: 30px;
+}
+
+.event-bloc{
+    background-color: #CE0033;
+    height: 191px;
+    width: 628px;
+    left: -12px;
+    top: 630px;
+    border-radius: 8px;
+}
+
+.annonce{
+    /* font-weight: bold; */
+    color: #fff;
+    padding: 25px;
+    font-size: 28px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cohorte{
+    color: #fff;
+    width: 361px;
+    height: 79px;
+    line-height: 20px;
+    margin-left: 65px;
+    top: -57px;
+    
+}
+
+.text-cohorte{
+    margin-top: -100px;
+    margin-left: 45px;
+    
+}
+
+.info-cohorte{
+    margin-left: 45px;
+    font-weight: bold;
+}
+
+.trait-blanc{
+    margin-top: -94px;
+    margin-left: 230px;
+}
+
+.arrow{
+    margin-left: 495px;
+    margin-top: -55px;
+}
+
+/* -------------------------------Decouvertes---------------------- */
+
+.discovery{
+    width: 100%;
+    height: 764px;
+    background-image: url("img-accueil/decouverte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 75px;
+}
+
+.infos{
+    color: #FFFFFF;
+    margin-left: 98px;
+    text-align: left;
+    padding-top: 8%; 
+}
+
+.figure{
+    background-color: #CE0033;
+    height: 208px;
+    width: 1281.88px;
+    border-radius: 10px;
+    margin-top: -56px;
+}
+
+.figure h1{
+    color: #FFF;
+    padding-left: 85px;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.figure p{
+    color: #FFF;
+    padding-left: 85px;
+    font-weight: normal; 
+}
+
+/* ----------------------------Formateurs------------------------ */
+
+.titre{
+    color: #CE0033;
+    width: 100px;
+    height: 63px;
+    margin-left: 90px;
+    margin-top: 201px;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.trainer {
+    display: flex;
+    flex-direction: row;
+    height: 397px;
+    width: 498px;
+    box-shadow: 0px 3px 67px 2px 
+    rgba(195, 195, 195, 0.25);
+    border-radius: 10px;
+    margin-top: 122px;
+}
+
+.photo{
+    width: 226px;
+    height: 259px;
+    margin-top: -3.5rem;
+    margin-left: -3.5rem;
+    /* box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.25); */
+    border-radius: 10px;
+}
+
+.tiret{
+    position: absolute;
+    width: 10px;
+    height: 60px;
+    background: crimson;
+    margin-top: -1.5rem;
+    margin-left: 28%;  
+}
+
+.conetnu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    justify-content: flex-start;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.samba-name{
+    font-style: normal;
+    font-size: 26px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.souligne-nom{
+    width: 160px;
+    height: 2px;
+    background: #000000;
+    margin-top: -0.5rem;
+}
+
+.text-samba{
+    font-style: italic;
+    font-weight: normal;
+    color: #2B2B2B;
+}
+
+.div-voir-plus{
+    position: relative;
+    margin-top: -7rem;
+    margin-left: 60%;   
+}
+
+.voir-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;   
+}
+
+.bout-tweet{
+    margin-top: 20%;
+    height: 34px;
+    width: 112px;
+    background: #CE0033;
+    width: 98px;
+    height: 32px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.titre::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: block;
+    background-color:black;
+}
+
+/* ----------------------------Apprenants------------------------- */
+
+.learners{
+    color: #CE0033;
+    font-weight: 800;
+    font-size: 38px;
+    height: 63px;
+    margin-left: 90px;
+    width: 100px;
+    line-height: 65px;  
+}
+
+.learners::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: block;
+    background-color:black;
+}
+
+.contenu{
+    position: absolute;
+    background: #F9F8F8;  
+    width: 665px;
+    height: 320px;
+    margin-left: -8px;
+    margin-top: 40px;
+}
+
+.learners-text p{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    height: 160px;
+    margin-left: 43px;
+}
+
+.paragraphe{
+    margin-top: 15%;
+}
+
+.textaftervideo p{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 37px; 
+    margin-left: 5%;
+}
+
+.cadre-video{
+    margin-top: -50px;
+    /* margin: -100px; */
+}
+
+.youtube{
+    position: absolute;
+    margin-top: -225px;
+    margin-left: 270px;
+}
+
+.barre{
+    content: "";
+    width: 636px;
+    height: 6px;
+    display: block;
+    margin-top: -20px;
+    background-color:rgb(241, 41, 41);
+}
+
+.hour{
+    position: absolute;
+    margin-top: 237px;
+    margin-left: 560px;
+    color: rgb(241, 41, 41);
+}
+
+.fixe-title-apprenants{
+    margin-top: -450px;
+    margin-left: -24px;
+}
+
+/* ---------------------------histoire de la communaute-------------------- */
+
+.contenudemapagecommunaute{
+    width: 687px;
+    height: 546px;
+    margin-top: 500px;
+}
+
+.cercle{
+    height: 182px;
+    width: 189px;
+    background: #E7DFE1;
+    border-radius: 117px;
+    margin-right: 620px;
+    margin-top: -70px;
+}
+
+.video-histoire-communaute{
+    
+}
+
+.youtube2{
+    margin-top: -300px;
+    margin-left: 270px;
+    position: absolute;
+}
+
+.heure{
+   margin-top: 450px;
+   margin-left: 600px;
+   position: absolute;
+  
+}
+
+.barrerouge{
+
+    background-color:rgb(241, 41, 41);
+    height: 20px;
+    width: 687px;
+    margin-top: -30px;
+}
+
+.histoiredelacommunaute{
+    position: absolute;
+    width: 555px;
+    height: 62px;
+    color: #000000;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 550px; 
+    margin-left: 2%;
+}
+
+.title-histoire{
+    margin-top: -480px;
+    margin-left: -24px;
+}
+
+.communaute-title{
+    color: #CE0033;
+    font-weight: 800;
+    font-size: 28px;
+    height: 53px;
+    margin-top: 500px;
+    margin-left: 90px;
+    width: 500px;
+}
+
+.communaute-title::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: block;
+    background-color:black;
+}
+
+.dialogue{
+    /* position: absolute;
+    background: #F9F8F8;   */
+    width: 520px;
+    height: 320px;
+    margin-left: 758px;
+    margin-top: -440px;
+}
+
+/* -----------------------------------Equipes-pedagogiques--------------------- */
+
+.titre-equipepedagogique{
+    margin-top: 95px;
+    color: #CE0033;
+    font-style: normal;
+    font-weight: 800;
+    height: 150px;
+    margin-left: -45px;
+}
+
+.titre-equipepedagogique::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: block;
+    background-color:black;
+}
+
+.title-equipe{
+    margin-top: -640px;
+    margin-left: -28px;
+}
+
+.youtube-equipe{
+    margin-left: 600px;
+    
+    
+}
+
+/* --------------------------------Alumni------------------------------------- */
+
+.anciens{
+    margin-top: 600px;
+    color: #CE0033;
+    font-weight: 800;
+    font-size: 38px;
+    height: 63px;
+    margin-left: 90px;
+    width: 100px;
+    line-height: 65px; 
+}
+
+.anciens::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    display: block;
+    background-color:black;
+}
+
+
+.informationalumni{
+    position: absolute;
+    background: #F9F8F8;  
+    width: 665px;
+    height: 320px;
+    margin-left: -8px;
+    margin-top: 40px;
+}
+
+.Alumni-text p{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    height: 160px;
+    margin-left: 43px 
+}
+
+.paragraphe3{
+    margin-top: 15%;
+}
+
+.photo-alumni{
+    margin-top: -50px;
+    width: 650px;
+    height: 396px;
+}
+
+.youtube-alumni{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 270px;
+}
+
+.heure-alumni{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 570px;
+    color: rgb(241, 41, 41);
+}
+
+.duree-alumni{
+    content: "";
+    width: 637px;
+    height: 6px;
+    display: block;
+    margin-top: -20px;
+    background-color:rgb(241, 41, 41);
+}
+
+.afervideotextalumni p{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 37px; 
+    margin-left: 5%;
+}
+
+.title-alumni{
+    margin-top: -490px;
+    margin-left: -24px;
+}
+
+/* -------------------------Les petites histoires de la communaute------------------*/
+
+.titre-communaute{
+    margin-top: 580px;
+    color: #CE0033;
+    font-weight: 800;
+    margin-left: -45px;
+    font-size: 38px;
+    font-style: normal;
+    height: 80px;
+}
+
+.titre-communaute::after{
+    content: "";
+    width: 110px;
+    height: 4px;
+    display: block;
+    background-color:black;
+}
+
+.cercle-petite-histoire{
+
+    width: 109px;
+    height: 110px;
+    margin-left: -60px;
+    margin-top: 10px;
+    /* padding: 5px; */
+    background: rgba(206, 0, 51, 0.09);
+    border-radius: 142px;
+}
+
+.cercle2-petite-histoire{
+    background: rgba(206, 0, 51, 0.09); 
+    width: 109px;
+    height: 110px;
+    border-radius: 142px;
+    margin-left: 1200px;
+    margin-top: -68px;
+}
+
+.ombre-petite-histoire{
+    width: 408px;
+    height: 415px;
+    margin-top: -65px;
+    margin-left: -35px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(217, 217, 217, 0.66);
+    box-sizing: border-box;
+    box-shadow: 0px 3px 67px 2px rgba(195, 195, 195, 0.25);
+    border-radius: 10px;
+}
+
+.text-petite-histoire{
+    margin-left: 36px;
+    margin-top: 58px;
+    text-align: justify;
+    height: 228px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.image-petite-histoire{
+  margin-left: 36px;
+  margin-top: 27px;
+}
+
+.text-after-image-petite-histoire{
+    margin-left: 174px;
+    margin-top: -73px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 41px;
+}
+
+.descriptif{
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: -18px;
+}
+
+/* ---------------------------------Nous contacter--------------------------- */
+
+.titre-page{
+
+    color: #CE0033;
+    margin-top: 57px;
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    font-style: normal;
+    line-height: 65px;
+}
+
+.formulaire{
+    width: 769px;
+    height: 737px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    /* width: 70%;
+    height: 600px;  
+    top: 130px; 
+    margin-top: 3%; */
+}
+
+.text-person{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.text-coordonnee{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.text-message{
+
+    height: auto;
+    width: auto;
+}
+
+.message{
+    margin-top: 20px; 
+    Width:700px;
+    Height:200px;
+    border-radius: 10px; 
+    box-shadow: 4px 4px 26px 0px #5E6D6C57;
+    /* width: 100%; */
+}
+
+.monbtn{
+    width: 200px;
+    height: 70px;
+    background: #CE0033;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.contact{
+    display: flex;
+    width: 322px;
+    margin-left: 100px;
+    margin-top: 4%;
+}
+
+.icone-and-contenu-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenu-contact{
+
+    margin-left: 155px;
+    flex-direction: column;
+}
+
+.adress{
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: -130px;
+    height: 38px;
+    line-height: 38px;   
+}
+
+.Description-lieu{
+    
+    color: #A7ACB6;
+    width: 222px;
+    margin-left: -127px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 14px;
+}
+
+.icone-and-contenu-telephone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 875px;
+    margin-top: -520px;
+}
+
+.contenu-telephone{
+    /* margin-left: 470px;
+    display: flex; */
+    /* margin-top: -445px; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* margin-top: -445px; */
+}
+
+
+.Tel{
+    margin-left: 20px;
+    /* margin-top: -550px ; */
+    width: 154px;
+    height: 78px;
+    line-height: 38px; 
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.num-Tel {
+    color: #A7ACB6;
+    font-weight: 600;
+    font-size: 20px
+    width: 197px;
+    margin-left : 21px;
+    margin-top : -35px;
+}
+
+
+.icone-and-contenu-mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 680px;
+    margin-top: -820px;
+}
+
+.contenu-email{
+    position: absolute;
+    margin-left: 80px;
+     margin-top: 100px;
+}
+
+.Email{
+
+    display: flex;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px; 
+    margin-left: 210px;
+    margin-top: -100px;
+}
+
+.infos-email{
+    color: #A7ACB6;
+    font-size: 22px;
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px
+     61px;
+     /* margin-left: -101px; */
+     margin-left: 210px;
+    margin-top: -2px;
+}
+
+.champ-nom {
+    margin-top: 20px;      
+    margin-right: 5%;
+    Width:369px;
+    Height: 74px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    box-shadow: 4px 4px 26px 0px #5E6D6C57;
+}
+
+.Telephone{
+    display: flex; 
+    width: 258px;
+}
+
+.mail{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 140px;
+    /* margin-bottom: 5px; */
+    margin-left: -2rem;
+}
+
+.nos-coordonnes{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+/* --------------------------------------footer-------------------------------- */
+
+.footer{
+    height: auto;
+}
+
+.logo{
+    margin-left: 0;
+    background-image: url("./img-accueil/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 480px;
+    padding: 40px;
+}
+
+.image-footer{
+
+}
+
+.r-s-icone{
+  
+}
+
+.bouton{
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+    height: 41px;    
+}
+
+.plus-infos{
+    color: rgba(255, 255, 255, 0.84);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    height: 210px;
+    margin-top: 45px;
+    line-height: 42px; 
+}
+
+.contact-footer{
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    width: 183px;
+    height: 41px;
+}
+
+.coor-footer{
+
+    color: rgba(255, 255, 255, 0.84);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.coordo-footer{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    width: 202px;
+    height: 25px;
+}
+
+.letter{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    width: 242px;
+    height: 41px;
+}
+
+.inscrire{
+
+    color: rgba(255, 255, 255, 0.84);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.envoyer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 32px;
+    width: 258px;
+    height: 58px;
+    margin-top: 33px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 26px 1px rgba(94, 109, 108, 0.34);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn-joindre{
+
+    /* display: flex; */
+    background: #CE0033;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* width: 60px;
+    height: 25px;
+    left: 20px;
+    top: 16.5px; */
+}
+
+.bas-de-page{
+    position: absolute;
+    background-color: #CE0033;
+    width: 1699px;
+    margin-top: -25px;
+    height: 82px;
+    /* left: 0px;
+    top: 493px; */
+}
+
+.copyright{
+    color: #FFFFFF
+}
+
+.promo4{
+
+    margin-left: 1025px;
+    /* width: 235px;
+    height: 33px;
+    left: 1141px;
+    top: 524px; */
+}
