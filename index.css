@@ -7,68 +7,11 @@ body{
 
 /* -------------------------- menu -------------------------------- */
 
-.menu{
-    margin-left: 350px;
-    margin-top: 25px;
-    height: 5px;
-    font-size: 16px;
-    font-weight: 900;
-    font-style: normal;
-}
 
-.bout-one{
-    background: #CE0033;
-    justify-content: center;
-    align-items: center;
-    width: 87px;
-    height: 37px;
-    margin-left: 40px;
-    margin-top: -5px;
-    border-radius: 25px;
-    line-height: 22px;
-    font-size: 16px;
-}
 
 /* ---------------------------Accueil------------------------------- */
 
-.Accueil {
-    background-image: url('img-accueil/lago.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    height: 700px; 
-}
 
-.lead{
-    width: 636px;
-    height: 405px;
-    margin-right: 35%;
-    margin-top: 69px;
-}
-
-.accuei{
-    
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    color: #FFFFFF;
-    height: 167px; 
-    width: 767px;
-    height: 167px;  
-}
-
-.bout-two{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 215px;
-    height: 63px;
-    background: #CE0033;
-    border-radius: 103px;
-    margin-top: 30px;
-}
 
 /* -------------------------history-------------------------------- */
 

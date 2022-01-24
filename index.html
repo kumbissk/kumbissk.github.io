@@ -14,617 +14,693 @@
 <body>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-sm bg-brand navbar-light justify-content-center-fixed">
-        <nav class="navbar navbar-expand-lg">
-            <!-- pour afficher le logo -->
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./img-accueil/simplonSenegal.png" alt="" width="154" height="45">
+    <nav class="navbar navbar-expand-md d-md-flex flex-md-row justify-content-md-start  d-lg-inline-flex navbar-light bg-light fixed-top menu">
+		<div class="justify-content-sm-start">
+            <a href="#" class="navbar-brand">
+                <img src="images/simplonSenegal.png" alt="" class="img img-fluid float-start navbar-brand img1 mb-sm-5 my-md-5 mx-md-5">
+            </a>
+        </div>
+        <button class="navbar-toggler border-danger border-1 me-md-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse div-ul" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between mb-2" id="montabs">
+                <li class="nav-item pb-3 ">
+                    <a href="#" class="nav-link pb-4 mt-5 me-5 active">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Fabriques</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Partenariats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Espaces</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark mt-5 ">Entités</a>
+                </li>
+            </ul>
+            <div class="nav-item">
+                <a href="#" class="nav-link text-dark ms-5 ">
+                    <img src="images/search.png" class="img2 img img-fluid " alt="">
                 </a>
             </div>
-            <!-- menu -->
-            <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" style="color: #CE0033;" aria-current="page" href="Accueil.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Fabriques</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Formations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Partenariats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Espaces</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Entites</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-search"></i></a>
-                    </li> 
-
-                    <!-- <div>
-                        <li class="nav-item dropdown langue">
-                            <a class="dropdown-toggle" href="#" id="Fr" role="button" data-bs-toggle="dropdown">Fr <span class="caret"></span></a>
-                        </li> 
-                    </div> -->
-                  
+        </div>
+        <div class="div-contact d-none d-md-inline-block">
+            <div class="d-flex mb-4 me-5">
+                <div class="dropdown">
+                <a href="#"  data-toggle="dropdown" class="nav-link text-dark mt-5 dropdown-toggle">Fr<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">EN</a></li>
                 </ul>
-                
-                <div>
-                    <p class="bouton mb-1"><a href="#" class="btn btn-lg btn-danger text-start ms-5 bout-one">
-                        contact</a>
-                    </p>
                 </div>
-                
+                <a href="#" class="nav-link  btn btn-sm bouton rounded-pill">Contact</a>
             </div>
-        </nav>
+        </div>
     </nav>
-
-    <!-- main- le contenu de la page  -->
-
     <main>
-
-        <!-- Accueil -->
-
-        <div class="container-fluid">
-            <section class="Accueil d-flex w-200h  flew-column justify-content-center align-items-center">
-                <div class="column lead col-md-6 col-sm-12 col-lg-6">
-                    <div class="accuei">
-                        <h1 class="display-1 head text-white text-start ms-5 accuei">
-                            Simplon,<br>
-                            reseau de Fabriques<br>numeriques et inclusives
-                        </h1>
+        <!--Accueil -->
+        <section class="accueil bg-dark d-flex w-100 h-100 flex-column justify-content-center align-items-center">
+            <div class="container-fluid mt-5 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8 mt-5 ">
+                            <h1 class="font display-1 text-white text-start ">Simplon,<br>
+                                réseau de Fabriques numériques et inclusives</h1>
+                            <p class="font1 lead text-start text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros elementum tristique.</p> 
+                            <p class="lead mb-5 ">
+                                <a href="#" class="btn btn-lg btn-danger bouton1 rounded-pill">Nous Contacter</a>
+                            </p>
+                            <div class="d-md-flex justify-content-sm-center d-none boutonslide-accueil">
+                                <button class="slide-bounton me-3"></button>
+                                <button class="slide-bounton me-3"></button>
+                                <button class="slide1-bounton"></button>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p class="text-start text-white text-start ms-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                            voluptatem similique ipsa assumenda, officiis nobisdolorem.
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro -->
+        <section>
+            <div class="container-fluid introduction d-flex flex-md-column justify-content-center align-items-center">
+                <div class="row ms-5">
+                    <div class="col-lg-6">
+                        <img src="image/women_manager.jpg" class="img img3 img-fluid  float-end me-3" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>SIMPLON AU SENEGAL </h3>
+                        <p class="p-introduction">
+                            Affichant un taux de chômage supérieur à 16%, l’intégration des jeunes et des femmes sur le marché du travail est un enjeu crucial au Sénégal. Pour le gouvernement, et avec le plan “Sénégal 2025”, l’inclusion numérique est devenue une priorité, visant à doter le pays d'infrastructures numériques modernes et de faciliter la création de 35 000 emplois d'ici 2025.
+                            Alors que le numérique représente déjà 8% du PIB national, les compétences tech se font encore rares.
+                            Seformer aux métiers du numérique ouvre de belles perspectives d’avenir, quels que soient les secteurs d’activité.
                         </p>
                     </div>
-                    <div>
-                        <p a href="#" class="btn btn-lg btn-danger text-start ms-5 bout-two ">Nous
-                            contacter</a></p>
-                    </div>
-                    <!-- <div class="col-lg-8 ">
-                    </div> -->
-                </div>
-            </section>
-        </div>
-
-        <!-- Historiques -->
-
-        <div class="container-fluid">
-            <div class="history">
-                <div class="row mb mt-2">
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                        <img src="./img-accueil/woman-manager.png" alt="" width="420" height="443" class="image float-end ">
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                        <h3 class="nom">Simplon au senegal</h3>
-                        <p class="p1">
-                            Affichant un taux de chômage supérieur à 16%, <br>
-                            l’intégration des jeunes et des femmes sur le marché <br>
-                            du travail est un enjeu crucial au Sénégal.Pour le <br> gouvernement,
-                            et avec le plan “Sénégal 2025”, <br> l’inclusion numérique est devenue <br>
-                            une priorité, visant à <br> doter le pays d'infrastructures numériques
-                            modernes <br> et de faciliter la création de 35 000 emplois d'ici 2025. <br>
-                            ​​​​​​​ Alors que le numérique représente déjà 8% du PIB <br> national,les
-                            compétences tech se font encore rares. <br>
-                            Se former aux métiers du numérique ouvre de belles <br> perspectives
-                            d’avenir, quels que soient les secteurs <br> d’activité.
-                        </p>  
-                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Nouvelles -->
-
-        <div style="text-align: center;">
-            <h1 class="title-new">Nouvelles</h1>
-        </div>
-
-        <div class="container">
-            <article>
-                <div class="row">
-                    <h3 class="title-info">Actualites</h3>
+        <section>
+            <div style="text-align: center;">
+                <h1 class="title-new">Nouvelles</h1>
+            </div>            
+            <div class="container">
+                <div>
+                    <h1 class="mt-5 text-center nouvelle">Nos Nouvelles</h1>
                 </div>
                 <div class="row">
+                    <h3 class="text-start">Actualites</h3>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
                     <div class="col-md-3 col-sm-5">
-                        <div class="card-mb-4 shadow-5m">
-                            <img src="img-accueil/formation fille.jpg" alt="" class="w-100 rounded">
-                        </div>
-                        <div class="start-body">
-                            <h4>Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h4>
-                        </div>
-                        <div class="text-card">
-                            <p>En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
-                                Et HOPPP, c'est parti... 🚀🚀</p>
+                        <div class="card mb-4 shadow-sm">
+                            <div class="actu">
+                                <img src="images/sept25.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
+                                <p class="card-text">
+                                    En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
+                                    Et HOPPP, c'est parti... 🚀🚀
+                                </p>
+                            </div>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-5">
-                        <div class="card-mb-4 shadow-5m">
-                            <img src="img-accueil/formation fille.jpg" alt="" class="w-100 rounded">
-                        </div>
-                        <div class="start-body">
-                            <h4>Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h4>
-                        </div>
-                        <div class="text-card">
-                            <p>En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
-                                Et HOPPP, c'est parti... 🚀🚀</p>
+                        <div class="card mb-4 shadow-sm">
+                            <div class="actu">
+                                <img src="images/sept30.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
+                                <p class="card-text">
+                                    En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
+                                    Et HOPPP, c'est parti... 🚀🚀
+                                </p>
+                            
+                            </div>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-5">
-                        <div class="card-mb-4 shadow-5m">
-                            <img src="img-accueil/formation fille.jpg" alt="" class="w-100 rounded">
-                        </div>
-                        <div class="start-body">
-                            <h4>Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h4>
-                        </div>
-                        <div class="text-card">
-                            <p>En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
-                                Et HOPPP, c'est parti... 🚀🚀</p>
+                        <div class="card mb-4 shadow-sm">
+                            <div class="actu">
+                                <img src="images/sept22.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
+                                <p class="card-text">
+                                    En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
+                                    Et HOPPP, c'est parti... 🚀🚀
+                                </p>
+                                
+                            </div>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-5">
-                        <div class="card-mb-4 shadow-5m">
-                            <img src="img-accueil/formation fille.jpg" alt="" class="w-100 rounded">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="actu">
+                                <img src="images/sept12.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
+                                <p class="card-text">
+                                    En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
+                                    Et HOPPP, c'est parti... 🚀🚀
+                                </p>
+                            </div>
                         </div>
-                        <div class="start-body">
-                            <h4>Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h4>
+                    </div>
+                    <div class="text-end ">
+                        <h4 class="p-plus-actualite">Plus d'Actualites <img src="images/plus1.png" class="img img-fluid" alt=""></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
+                    <h3 class="text-start">Evenement a venir</h3>
+                    <div class="col-md-6 col-sm-8">
+                        <div class="bg-danger mb-4 shadow-sm div-event-venir">
+                        <div class="container-fluid">
+                            <div class="row text-white ">
+                                <div class=" col-md-3 mt-4">
+                                    <h1> 23</h1>
+                                    <p class="pb-5">Sept</p>
+                                </div>
+                                <div class=" col-md-6 mt-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6">
+                                            <p>Next Events</p>
+                                            
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <img src="images/Line.png" class="img img-fluid" alt="">
+                                    </div>
+                                
+                                    </div>
+                                    <h4> Lancement d’une nouvelle cohorte developpement web</h4>
+                                </div>
+                                <div class=" col-md-3 mt-5">
+                                    <img src="images/Arrowbutton.png" alt="" class="img img-fluid">
+                                </div>
+                            </div>
                         </div>
-                        <div class="text-card">
-                            <p>En vérité, le chemin importe peu, la volonté d'arriver suffit à tout".
-                                Et HOPPP, c'est parti... 🚀🚀</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-8">
+                        <div class="bg-danger mb-4 shadow-sm div-event-venir">
+                            <div class="container-fluid">
+                                <div class="row text-white ">
+                                    <div class=" col-md-3 mt-4">
+                                        <h1> 23</h1>
+                                        <p class="pb-5">Sept</p>
+                                    </div>
+                                    <div class=" col-md-6 mt-4">
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-6">
+                                                <p>Next Events</p>
+                                                
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <img src="images/Line.png" class="img img-fluid" alt="">
+                                        </div>
+                                    
+                                        </div>
+                                        <h4> Hackathon lorem et ipsum</h4>
+                                    </div>
+                                    <div class=" col-md-3 mt-5">
+                                        <img src="images/Arrowbutton.png" alt="" class="img img-fluid">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row text-end ">
-                    <div class="more-infos">
-                        Plus d'actualites <span><i class="bi bi-plus-circle-fill"></i></span>
-                    </div>
-                </div>
-
-                    <div class="row">
-                        <h3 class="title-info1">Evenement a venir</h3>
-                    </div>
-
-                    <div class="row d-flex justify-content-around ">
-                        <div class="col-5 event-bloc">
-                            <div class="event-item col-md-6 sm-12 col-lg-6">
-                                <div class="col-4 annonce"><span><b>23</b> sep</span></div>
-                                <div class="col-4 cohorte">
-                                    <p class="text-cohorte">NEXT EVENTS </p>
-                                    <p class="info-cohorte">Lancement d’une nouvelle <br>cohorte developpement web</p>
-                                </div>
-                                <div class="arrow">
-                                    <img src="./img-accueil/Arrow button.png" alt="">
-                                </div>
-                            </div>
-
-                            <div class="col-4 trait-blanc"><i class="bi bi-dash" style="font-size: 2rem; color: #fff;"></i></div>
-                        </div>
-
-                        <div class="col-5 event-bloc">
-                            <div class="event-item col-md-6 col-sm-12 col-lg-6">
-                                <div class="col-4 annonce"><span><b>25</b>  sep</span></div>
-                                <div class="col-4 cohorte">
-                                   <p class="text-cohorte"> NEXT EVENTS </p>
-                                   <p class="info-cohorte"> Hackathon lorem et ipsum</p>
-                                </div>
-                                <div class="arrow">
-                                    <img src="./img-accueil/Arrow button.png" alt="">
-                                </div>
-                            </div>
-
-                            <div class="col-4 trait-blanc"><i class="bi bi-dash" style="font-size: 2rem; color: #fff;"></i></div>
-                        </div>
-                    </div>
-            </article>
-            
-        </div>
+            </div>
+        </section>
 
         <!-- Decouvertes -->
-
-        <div class="container-fluid">
-            <div class=" discovery ">
-                <div class="infos mb-5">
-                    <h1 style="font-size: 100px; font-weight: 900; line-height: 136px; width: 610px;
-                    height: 136px;">Decouvertes</h1>
-                    <p style="font-size: 26px; font-weight: 600px; line-height: 47px;">Simplon.co est un réseau de Fabriques solidaires et inclusives qui proposent des <br> formations gratuites aux métiers techniques du numérique en France et à <br> l’étranger </p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row figure">
-                    <div class="col-md-4 col-lg-4 col-sm-12 mt-5">
-                        <h1>100</h1>
-                        <p>Formateurs experts</p>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12 mt-5 ">
-                        <h1>385</h1>
-                        <p>Apprenant.es formé.es <br> depuis l’ouverture dans le <br> pays</p>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12 mt-5">
-                        <h1>96</h1>
-                        <p>Enfants sensibilisé.e.s au <br> numérique</p>
+        <section class="accueil1 bg-dark d-flex justify-content-center align-items-center">
+            <div class="container-fluid mb-5">
+                <div class="container mb-5">
+                    <div class="row mb-5">
+                        <div class="col-lg-10">
+                            <h1 class="h1-decouverte display-1 text-white text-start">Decouvertes</h1>
+                            <p class="font1 lead text-start text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros elementum tristique.
+                            </p> 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <aside class="accueil2 chiffre d-flex flex-column justify-content-center align-items-center">
+            <div class="container-fluid mb-5">
+                <div class="container mb-5">
+                    <div class="row mb-5">
+                        <div class="col-lg-4">
+                            <h1 class="h1-decouverte display-1 text-white text-start">100</h1>
+                            <p class="font1 lead text-start text-white">Formateurs experts</p> 
+                        </div>
+                        <div class="col-lg-4 text-white">
+                            <div class="d-flex flex-column">
+                                <h1 class="h1-decouverte display-1 ">385</h1>
+                            </div>
+                            <div class="fontchiffre">
+                                <p class="text-start ">Apprenant.es formé.es depuis l’ouverture dans le pays</p> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column text-center">
+                            <h1 class="h1-decouverte display-1 text-white text-start">96</h1>
+                            <p class="font1 lead text-start text-white">Enfants sensibilisé.e.s au<br>numérique</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
 
         <!-- Formateurs -->
-
-        <section class="mb-5 mt-5">
-            <h3 class="titre">Formateurs</h3>
+        <section>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        
-                        <div class="trainer">
-                            
-                            <div class="photo">
-                                <img src="img-accueil/samba 4.png" alt="">
-                            </div>
-                            <div class="tiret"></div>
-                            <div class="conetnu">
-                                
-                                <p class="samba-name">Samba Bery KANE</p>
-                                <div class="souligne-nom"></div>
-                                <p class="text-samba">Formateur</p>
-                                <p class="text-samba">Lorem ipsum, dolor sit amet 
-                                    consectetur 
-                                    adipisicing elit. Neque consequatur id 
-                                    quisquam soluta optio
-                                </p>
+                <div class="row mb-5">
+                    <h3 class="text-start">Formateur</h3>
+                    <div class="hr bg-dark text-dark ms-3">
+                     .
+                    </div>
+                </div>  
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-6 col-sm-8 bg-white mb-4 Formateur">
+                        <div class="container-fluid">
+                            <div class="row text-dark ">
+                                <div class="col-md-5 mt-4">
+                                    <img src="images/samba41.png" class="img img-fluid samba-photo " alt="">
+                                </div>
+                                <div class="col-md-6 samba-text ">
+                                    <div class=" samba-nom " >
+                                        Samba Bery KANE
+                                    </div>
+                                    <hr>
+                                    <h6>Formateur</h6>
+                                    <p >LoreJm ipsum dolor sit, amet consectetur aobcaecati, tempora esse distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.</p>
+                                </div>
+                                <div class="col-md-1 ">
+                                    <div class="vr bg-danger text-danger ligne ">.</div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="voir-plus ">
+                                        <img src="images/voirplus.png" class="img img-fluid" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="div-voir-plus">
-                            <button class="voir-plus btn btn-lg btn-danger text-start ms-5 bout-tweet">Voir Plus</button>
+                        <div class="col-md-6 col-sm-8 bg-white mb-4 Formateur">
+                            <div class="container-fluid">
+                                <div class="row text-dark ">
+                                    <div class=" col-md-5 mt-4">
+                                        <img src="images/samba41.png" class="img img-fluid samba-photo " alt="">
+                                    </div>
+                                    <div class=" col-md-6 samba-text ">
+                                       <div class=" samba-nom " >
+                                            Samba Bery KANE
+                                       </div>
+                                       <hr>
+                                       <h6>Formateur</h6>
+                                       <p >LoreJm ipsum dolor sit, amet consectetur aobcaecati, tempora esse distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.</p>
+                                    </div>
+                                    <div class="col-md-1 ">
+                                    <div class="vr bg-danger text-danger ligne ">.</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="voir-plus ">
+                                    <img src="images/voirplus.png" class="img img-fluid" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="trainer">
-                            <div class="photo">
-                                <img src="img-accueil/samba 4.png" alt="">
-                            </div>
-                            <div class="tiret"></div>
-                            <div class="conetnu">
-                                <p class="samba-name">Samba Bery KANE
-                                    <div class="souligne-nom"></div>
-                                </p>
-                                <p class="text-samba">Formateur</p>
-                                <p class="text-samba">Lorem ipsum, dolor sit amet 
-                                    consectetur 
-                                    adipisicing elit. Neque consequatur id 
-                                    quisquam soluta optio
-                                </p>
-                            </div>
-                           
-                        </div>
-                        <div class="div-voir-plus">
-                            <button class="voir-plus btn btn-lg btn-danger text-start ms-5 bout-tweet">Voir Plus</button>
-                        </div>
-                    </div>
-                </div>
-    
+                </div> 
+            </div>
+            <div class="slide-general mt-5" >
+                <button class="slide me-3"></button>
+                <button class="slide me-3"></button>
+                <button class="slide1"></button>
             </div>
         </section>
 
         <!-- Apprenants -->
-        <h1 class="learners">Apprenants</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                        <div class="contenu">
-                            <div class="learners-text">
-                                <p class="paragraphe">LoreJm ipsum dolor sit, amet consectetur <br> adipisicing elit. Dolor quod eius nisi quidem velit <br> tenetur, quia, animi sit obcaecati, tempora esse <br> minus at saepe nobis distinctio consectetur eum <br> tempore cere! Distinctio.</p>
-                            </div>
-                        </div>
-                       
+        <section>
+            <div class="container py-5">
+                <div class="row mb-5">
+                    <h3 class="text-start">Apprenants</h3>
+                    <div class="hr bg-dark text-dark ms-3">
+                     .
                     </div>
-                    
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                       <div class=" w-683 h-394 d-flex flex-column">
-                            <img src="./img-accueil/apprenants.jpg" alt="" class="img img-fluid align-self-start cadre-video">
-                            <div><p><span style="font-size: 7rem; color: rgb(241, 41, 41);" class="youtube"><i class="bi bi-youtube"></i></span></p></div>
-                            <div class="hour " style="background-color:rgb(241, 41, 41);">
-                                <img src="./img-accueil/heure.png" alt="" width="54px" height="38px">
-                            </div>
-                            <div class="barre"></div>
-                       </div>
-                        <div class="textaftervideo">
-                            <p>Les anciens simploniens qui ont ete formes au <br> developpement web et mobile dans la <br> fabrique Simplon.co</p>
+                </div>
+                <div class="row bg-light">
+                    <div class="col-sm-6 ">
+                        <div class="div1_app text-center">
+                        <p class="p_div1_app "> LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
+
+                        </p>  
                         </div>
-                        <div class="fixe-title-apprenants"><img src="./img-accueil/titre.png" alt=""></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mb-4 shadow-sm orbit">
+                            <div class=" card-header apprenant w-683 h-394 d-flex flex-column">
+                                <img src="images/apprend.png" alt="" class="img img-fluid align-self-start mt-5 img-alumin">
+                                <img src="images/play.png" alt="" class="img img-fluid align-self-center">
+                                <img src="images/heure.png" class="img img-fluid align-self-end" alt="">
+                            </div>
+                           
+                            <div class="hr-red bg-danger text-white ">
+                                .
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text orbit1 mb-5">
+                                    Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Histoire de la communaute -->
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                        <div class=" w-683 h-394 d-flex flex-column contenudemapagecommunaute">
-                            <img src="./img-accueil/apprenante-simplon_senegal.jpg" alt="" class="img img-fluid align-self-start video-histoire-communaute">
-                            <div><p><span style="font-size: 7rem; color: rgb(241, 41, 41);" class="youtube2"><i class="bi bi-youtube"></i></span></p></div>
-                            <div class="heure" style="background-color: rgb(241, 41, 41);">
-                                <img src="./img-accueil/heure.png" alt="" width="54px" height="38px">
+        <!-- Histoire de la communaute -->
+        <section>
+            <div class="container py-5">
+                <div class="row ">
+                    <div class="col-sm-6">
+                        <div class="card mb-4 shadow-sm orbit">
+                            <div class="card-header hc w-683 h-394 d-flex flex-column">
+                                <img src="images/histoire.png" alt="" class="img img-fluid align-self-start mt-5 img-alumin">
+                                <img src="images/play.png" alt="" class="img img-fluid align-self-center">
+                                <img src="images/heure.png" class="img img-fluid align-self-end" alt="">
                             </div>
-                            <div class="barrerouge"></div>
-                            <div class="histoiredelacommunaute">
-                                <p>Les apprenants en developpement web et <br>web mobile promo4</p>
+                            <div class="hr-red bg-danger text-white ">
+                                .
+                               </div>
+                            <div class="card-body">
+                                <p class="card-text orbit1 mb-5">
+                                    Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
+                                </p>
                             </div>
-                            <div class="title-histoire"><img src="./img-accueil/titre.png" alt=""></div>
                         </div>
                         <div class="cercle"></div>
-
                     </div>
+                
+                    <div class="col-sm-6 ">
+                        <h3 class="text-start">Histoire de la communauté</h3>
+                        <div class="hr bg-dark text-dark ms-3">
+                         .
+                        </div>
+                        <div class="div1_app text-center">
+                            <p class="p_div1_app "> LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
+                          </p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <h1 class="communaute-title">Histoire de la communaute</h1> <br> <br>
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                        <div class="dialogue">
-                            <div class="communaute-text">
-                                <p class="para3">LoreJm ipsum dolor sit, amet consectetur <br> adipisicing elit. Dolor quod eius nisi quidem velit <br> tenetur, quia, animi sit obcaecati, tempora esse <br> minus at saepe nobis distinctio consectetur eum <br> tempore cere! Distinctio.</p>
+        <!-- Pedagogique-Equipes -->
+        <section>
+            <div class="container py-5">
+                <div class="row ">
+                    <div class="col-sm-12">
+                        <h3 class="text-start">Équipe pédagogique</h3>
+                        <div class="hr bg-dark text-dark ms-3">
+                         .
+                        </div>
+                        <div class=" mt-3 shadow-sm orbit2">
+                            <img src="images/Team.png" alt="" class="img img-fluid img_obit w-100 h-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alumni -->
+        <section>
+            <div class="container py-5">
+                <div class="row ">
+                    <div class="col-sm-6 ">
+                        <h3 class="text-start">Alumni</h3>
+                        <div class="hr bg-dark text-dark ms-3">
+                         .
+                        </div>
+                        <div class="div1_app text-center">
+                            <p class="p_div1_app"> LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
+                          </p>  
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mb-4 shadow-sm orbit">
+                            <div class=" card-header alumin w-683 h-394 d-flex flex-column">
+                                <img src="images/Frame29.png" alt="" class="img img-fluid align-self-start mt-5 img-alumin">
+                                <img src="images/play.png" alt="" class="img img-fluid align-self-center">
+                                <img src="images/heure.png" class="img img-fluid align-self-end" alt="">
+                            </div>
+                            <div class="hr-red bg-danger text-white ">
+                                .
+                               </div>
+                            <div class="card-body">
+                                    <p class="card-text orbit1 mb-5">
+                                        Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
+                                    </p>
                             </div>
                         </div>
                     </div>
-                    
-                   
                 </div>
             </div>
+        </section>
 
-            <!-- Equipe-pedagogiques -->
-
-            <div class="container">
-                <h1 class="titre-equipepedagogique">Equipe pedagogique</h1>
-                <div class="row">
-                    <img src="./img-accueil/Teamphotoformateurs.png" alt="" class="img imd-fluid align-self-start photo-formateurs">
-                </div>
-                <div class="title-equipe"><img src="./img-accueil/equipepedagogiques.png" alt=""></div>
-
-                <div><p><span style="font-size: 7rem; color: rgb(241, 41, 41);" class="youtube-equipe"><i class="bi bi-youtube"></i></span></p></div>
-
-            </div>
-
-            <!-- Alumni -->
-
-            <h1 class="anciens">Alumni</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                        <div class="informationalumni">
-                            <div class="Alumni-text">
-                                <p class="paragraphe3">LoreJm ipsum dolor sit, amet consectetur <br> adipisicing elit. Dolor quod eius nisi quidem velit <br> tenetur, quia, animi sit obcaecati, tempora esse <br> minus at saepe nobis distinctio consectetur eum <br> tempore cere! Distinctio.</p>
+        <!-- Petites-Histoire-De-La-Communaute -->
+        <section>
+            <div class="container py-5">
+                <div class="row mb-5">
+                    <h3 class="text-start">les petites histoires de la communaute</h3>
+                    <div class="hr bg-dark text-dark ms-3">
+                     
+                    </div>
+                </div> 
+                <div class="row ">
+                    <div class="cercle1"></div>
+                    <div class="col-md-3 col-sm-5 divSamba">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid guillemer">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.
+                                </p>
                             </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="ms-3 mb-2 ">
+                                        <img src="images/samba41.png" alt="" class="img img-fluid img-cercle rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="d-flex-column">
+                                        <h6 class="">Samba KANE</h6>
+                                        <p>Formateur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5  divSamba">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid guillemer">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="ms-3 mb-2 ">
+                                        <img src="images/samba41.png" alt="" class="img img-fluid img-cercle rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="d-flex-column">
+                                        <h6 class="">Samba KANE</h6>
+                                        <p>Formateur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5 divSamba">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid guillemer">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="ms-3 mb-2 ">
+                                        <img src="images/samba41.png" alt="" class="img img-fluid img-cercle rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="d-flex-column">
+                                        <h6 class="">Samba KANE</h6>
+                                        <p>Formateur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cercle2"></div>
+                </div>
+            </div>   
+            <div class="mt-4 slide-general">
+                <button class="slide me-3"></button>
+                <button class="slide me-3"></button>
+                <button class="slide1"></button>
+            </div> 
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <div class="container">
+                <div class=" text-center me-5 mb-5">
+                    <h1 class="nouvelle">Nous Contacter</h1>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-12 col-lg-10 mt-5">
+                        <form>
+                            <div class="mb-5">
+                                <input type="text" class="formulaire me-4 prenom" name="prenom" id="prenom" placeholder="Prenom*">
+                                <input type="text" class="formulaire prenom" name="nom" id="nom" placeholder="Nom*">
+                            </div>
+                            <div class="mb-5">
+                                <input type="text" class="formulaire me-4 prenom" name="email" id="tel" placeholder="Email*">
+                                <input type="text" class="formulaire prenom" name="email" id="email" placeholder="Telephone*">
+                            </div>
+                            <textarea name="text" class="mb-5 message prenom" id="text" cols="30" rows="10" placeholder="Message*"></textarea>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I agree to terms et policy</label>
+                            </div>
+                            <a href="#" class="nav-link btn btn-sm bouton-envoyer mb-2 rounded-pill">Envoyer</a>
+                            <p class="prenom mb-5">*these fields are required</p>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-lg-2">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="images/loc.png" alt="" class="img img-fluid">
+                               
+                            </div>
+                            <div class="col-sm-9">
+                                <h6 class="adress">Address</h6>
+                                <p class="prenom">Cité keur Goor Gi
+                                    Dakar, Sicap, Libeté 2 
+                                    Senegal
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="images/tel.png" alt="" class="img img-fluid">
+                               
+                            </div>
+                            <div class="col-sm-9">
+                                <h6 class="adress">Téléphone</h6>
+                                <p class="prenom">(221) 77 456 78 90 <br>
+                                    (221) 77 654 32 10
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="images/tel.png" alt="" class="img img-fluid">
+                               
+                            </div>
+                            <div class="col-sm-9">
+                                <h6 class="adress">E-mail</h6>
+                                <p class="prenom">simplon@email.com<br>
+                                    help@simplon.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <section class="accueil3 w-100">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 mt-5 ">
+                            <img src="images/copyright1.png" class="img img-fluid ms-5" alt="">
+                            <div class="rsg mt-5">      
+                                <img src="images/mdi_twitter.png" alt="" class="img img-fluid rs">
+
+                                <img src="images/bx_bxl-facebook.png" alt="" class="img img-fluid rs">
+                                   
+                                <img src="images/uil_instagram.png" alt="" class="img img-fluid rs">
+                                    
+                                <img src="images/logos_youtube-icon.png" alt="" class="img img-fluid rs">
+                                    
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-5">
+                            <h6 class="voirplusfooter">Voir plus</h6>
+                            <div>
+                                <p class="propos">A propos
+                                    Notre histoire
+                                    Condition d’utilisation
+                                    Politique de confidentialité
+                                    FAQ</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-5">
+                            <h6 class="voirplusfooter">Voir plus</h6>
+                                <p class="propos">Cité keur Goor Gi
+                                    Dakar, Sicap, Libeté 2 
+                                    Senegal <br>
+                                   <strong>simplon@email.com </strong> <br>
+                                    <strong>help@simplon.com</strong> 
+                               <br>(221) 77 456 78 90
+                                    (221) 77 654 32 10</p>
+                            
+                        </div>
+                        <div class="col-lg-3 mt-5">
+                            <div>
+                            <h6 class="voirplusfooter">Notre Newsletter</h6>
+                           
+                                <p class="propos mt-5">Souscrivez-vous à notre newsletter pour ne manquer aucune de nos activités</p>
+                                    <form class="mb-5">
+                                    <input type="text"  placeholder="Email">
+                                    <button class="btn btn-danger">joindre</button>
+                                </form>
                         </div>
                        
-                    </div>
-                    
-                    <div class="col-md-6 col-sm-12 col-lg-6">
-                       <div class=" w-683 h-394 d-flex flex-column">
-                            <img src="./img-accueil/alum.jpg" alt="" class="img img-fluid align-self-start photo-alumni">
-                            <div><p><span style="font-size: 7rem; color: rgb(241, 41, 41);" class="youtube-alumni"><i class="bi bi-youtube"></i></span></p></div>
-                            <div class="heure-alumni" style="background-color:rgb(241, 41, 41);">
-                                <img src="./img-accueil/heure.png" alt="" width="54px" height="38px">
-                            </div>
-                            <div class="duree-alumni"></div>
-                       </div>
-                        <div class="afervideotextalumni">
-                            <p>Les anciens simploniens qui ont ete formes au <br> developpement web et mobile dans la <br> fabrique Simplon.co</p>
-                        </div>
-                        <div class="title-alumni"><img src="./img-accueil/alumni.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Les-petites-histoires-de-la-communaute -->
-
-            <div class="container">
-                <div class="row">
-                    <h3 class="titre-communaute">Les petites histoires de la communaute</h3>
-                </div>
-                <div class="cercle-petite-histoire"></div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-5">
-                        <div class="card-mb-4 shadow-5m ombre-petite-histoire">
-                            <div class="text-petite-histoire">
-                                <p>LoreJm ipsum dolor sit, amet<br>consectetur adipisicing elit. Dolor<br>quod eius nisi quidem velit tenetur,<br>quia, animi sit obcaecati, tempora <br>
-                                    esse minus at saepe nobis distinctio <br>consectetur eum tempore cere!.esse<br>minus at saepe nobis distinctio <br>
-                                    consectetur eum tempore cere!.
-                                </p>
-                            </div>
-                            <div class="image-petite-histoire">
-                                <img src="./img-accueil/samba 3.png" alt="">
-                            </div>
-                            <div class="text-after-image-petite-histoire">
-                                <p class="name">Samba KANE</p>
-                                <p class="descriptif">Formateur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-5">
-                        <div class="card-mb-4 shadow-5m ombre-petite-histoire">
-                            <div class="text-petite-histoire">
-                                <p>LoreJm ipsum dolor sit, amet<br>consectetur adipisicing elit. Dolor<br>quod eius nisi quidem velit tenetur,<br>quia, animi sit obcaecati, tempora <br>
-                                    esse minus at saepe nobis distinctio <br>consectetur eum tempore cere!.esse<br>minus at saepe nobis distinctio <br>
-                                    consectetur eum tempore cere!.
-                                </p>
-                            </div>
-                            <div class="image-petite-histoire">
-                                <img src="./img-accueil/samba 3.png" alt="">
-                            </div>
-                            <div class="text-after-image-petite-histoire">
-                                <p class="name">Samba KANE</p>
-                                <p class="descriptif">Formateur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-5">
-                        <div class="card-mb-4 shadow-5m ombre-petite-histoire">
-                            <div class="text-petite-histoire">
-                                <p>LoreJm ipsum dolor sit, amet<br>consectetur adipisicing elit. Dolor<br>quod eius nisi quidem velit tenetur,<br>quia, animi sit obcaecati, tempora <br>
-                                    esse minus at saepe nobis distinctio <br>consectetur eum tempore cere!.esse<br>minus at saepe nobis distinctio <br>
-                                    consectetur eum tempore cere!.
-                                </p>
-                            </div>
-                            <div class="image-petite-histoire">
-                                <img src="./img-accueil/samba 3.png" alt="">
-                            </div>
-                            <div class="text-after-image-petite-histoire">
-                                <p class="name">Samba KANE</p>
-                                <p class="descriptif">Formateur</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cercle2-petite-histoire"></div>
-            </div>
-
-            <!-- Nous-contacter -->
-
-            <section class="contacter-nous">
-                <div class="container">
-                    <h3 class="titre-page">Nous contacter</h3>
-                    <div class=" nos-coordonnes row mb-5">
-                        <div class="formulaire">
-                            <form>
-                                <div class="text-person">
-                                    <input type="text" class="champ-nom form-control" placeholder="Prenom*">
-                                    <input type="text" class="champ-nom form-control" placeholder="Nom*">
-                                </div>
-                                <div class="text-coordonnee">              
-                                    <input type="text" class="champ-nom form-control" placeholder="Email*">             
-                                    <input type="text" class="champ-nom form-control" placeholder="Telephone*">
-                                </div>
-                                <div class="text-message">
-                                    <textarea class="message form-control" placeholder="Message*"></textarea>
-                                </div>
-                                <div class="mt-3">
-                                  <input style="width: 19px; height: 19px;" type="checkbox"><span style="margin-left: 5px; color: #A7ACB6; font-size: 24px;">J'accepte les <i style="color: #CE0033;;">teremes de la licence</i></span>
-                                </div>
-                                <button class="monbtn btn btn-danger mt-3">Envoyer</button>
-                                <div class="mt-3">
-                                  <label style="color: #A7ACB6; font-size: 24px;">les champs marques par (*) sont obligatoire</label>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="contact">
-                            <div class="icone-and-contenu-contact mb-3">
-                                <a href="#"><i class="bi bi-geo-alt" style="font-size: 3rem; color: #CE0033;"></i></a>
-                                <div class="contenu-contact">
-                                    <h4 class="adress">Addresse</h4>
-                                    <p class="Description-lieu">Cite keur Goor Gi <br>
-                                        Dakar, Sicap, Liberte 2 <br>
-                                        Senegal
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="Telephone">
-                            <div class="icone-and-contenu-telephone mb-5">
-                                <a href="#"><i class="bi bi-telephone-forward-fill" style="font-size: 3rem; color: #CE0033;"></i></a>
-                                <div class="contenu-telephone">
-                                    <h4 class="Tel">Telephone</h4>
-                                    <p class="num-Tel">(221) 77 456 78 90<br>
-                                       (221) 77 654 32 10
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                     
-                        <div class="mail">
-                            <div class="icone-and-contenu-mail mb-3">
-                                <a href="#"><i class="bi bi-envelope" style="font-size:3rem; color: #CE0033;"></i></a>
-                                <div class="contenu-email">
-                                    <h4 class="Email">E-mail</h4>
-                                    <p class="infos-email">simplon@email.com <br>
-                                        help@simplon.com
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
             </section>
-
-            <!-- Footer -->
-
-            <footer class="footer pt-5 mt-5 pb-3">
-                <div class="container-fluid">
-                    <div class="logo row">
-                        <div class="col-md-3 col-lg-3 col-sm-12">
-                            <img src="./img-accueil/logo-simplon.svg" alt="" width="242px" height="61px" class="image-footer mb-3 mt-3">
-                            <div class="r-s-icone">
-                                <a href=""> <i class="bi bi-twitter" style="font-size: 2.5rem; color: #17A1FA; margin-right: 1.5rem;"></i></a>
-                                <a href="#"> <i class="bi bi-facebook" style="font-size: 2.5rem; color: #4267B2; margin-right: 1.5rem;"></i></a>
-                                <a href=""> <i class="bi bi-instagram" style="font-size: 2.5rem; color: #F24E1E; margin-right: 1.5rem;"></i></a>
-                                <a href="#"> <i class="bi bi-youtube" style="font-size: 2.5rem; color: #FF0000; margin-right: 1.5rem;"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-lg-3 col-sm-12">
-                            <h4 class="bouton">Voir Plus</h4>
-                            <p><a href="" class="plus-infos" style="text-decoration:none;">A propos</a></p>
-                            <p><a href="" class="plus-infos" style="text-decoration:none;">Notre Histoire</a></p>
-                            <p><a href="" class="plus-infos" style="text-decoration:none;">Conditions d'utilisation</a></p>
-                            <p><a href="" class="plus-infos" style="text-decoration:none;">Politique de confidentialite</a></p>
-                            <p><a href="" class="plus-infos" style="text-decoration:none;">FAQ</a></p>
-                        </div>
-
-                        <div class="col-md-3 col-lg-3 col-sm-12">
-                            <h4 class="contact-footer">Coordonnées</h4>
-                            <p class="coor-footer">Cité keur Goori Gi</p>
-                            <p class="coor-footer">Dakar,Sicap, Libeté 2 <br>Senegal</p>
-                            <p class="coordo-footer">simplon@email.com</p>
-                            <p class="coordo-footer">help@simplon.com</p>
-                            <p class="coor-footer">(221) 78 165 99 48</p>
-                            <p class="coor-footer">(221) 77 65 4 32 10</p>
-                        </div>
-
-                        <div class="col-md-3 col-lg-3 col-sm-12 mx-auto">
-                            <h4 class="letter">Notre Newsletter</h4>
-                            <p class="inscrire">Souscrivez-vous à notre</p>
-                            <p class="inscrire">newsletter pour ne manquer</p>
-                            <p class="inscrire">aucune de nos activités</p>
-                            <div class="envoyer">
-                                <input type="email" class="envoyer-input form-control" placeholder="Email">
-                                <button class="btn-joindre">Joindre</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-            <div class="container-fluid">
-                <div class="bas-de-page">
-                    <div class="copyright">
-                        <span style="font-weight: bold; font-size: 9px;">&copy;Copyright: 2021 Simplon. All rights reserved.</span>
-                        <span class="promo4">made with <i class="bi bi-suit-heart-fill" style="font-size: 1rem; color: #000000;">by SimplonP4</i></span>
-                    </div>
-                </div>
-            </div>
-           
-
-            <!-- Fin footer -->
-
-
-            
-
-
+        </footer>
 
     </main>
+        
+
+
 </body>
 </html>
