@@ -13,8 +13,7 @@
 </head>
 <body>
     <!-- navbar -->
-
-    <nav class="navbar navbar-expand-md d-md-flex flex-md-row justify-content-md-start  d-lg-inline-flex navbar-light bg-light fixed-top menu">
+    <nav class="navbar navbar-expand-md d-md-flex flex-md-row justify-content-md-start  d-lg-inline-flex navbar-light bg-light fixed-top nav">
 		<div class="justify-content-sm-start">
             <a href="#" class="navbar-brand">
                 <img src="images/simplonSenegal.png" alt="" class="img img-fluid float-start navbar-brand img1 mb-sm-5 my-md-5 mx-md-5">
@@ -23,42 +22,45 @@
         <button class="navbar-toggler border-danger border-1 me-md-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse div-ul" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
             <ul class="navbar-nav d-flex justify-content-between mb-2" id="montabs">
-                <li class="nav-item pb-3 ">
+                <li class="nav-item pb-3">
                     <a href="#" class="nav-link pb-4 mt-5 me-5 active">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Fabriques</a>
+                    <a href="#" class="nav-link text-dark mt-5 me-5">Fabriques</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Formations</a>
+                    <a href="#" class="nav-link text-dark mt-5 me-5">Formations</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Partenariats</a>
+                    <a href="#" class="nav-link text-dark mt-5 me-5">Partenariats</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-dark mt-5 me-5 ">Espaces</a>
+                    <a href="#" class="nav-link text-dark mt-5 me-5">Espaces</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-dark mt-5 ">Entités</a>
+                    <a href="#" class="nav-link text-dark mt-5">Entités</a>
                 </li>
             </ul>
             <div class="nav-item">
                 <a href="#" class="nav-link text-dark ms-5 ">
-                    <img src="images/search.png" class="img2 img img-fluid " alt="">
+                    <img src="images/search.png" class="search img img-fluid " alt="">
                 </a>
             </div>
         </div>
         <div class="div-contact d-none d-md-inline-block">
             <div class="d-flex mb-4 me-5">
                 <div class="dropdown">
-                <a href="#"  data-toggle="dropdown" class="nav-link text-dark mt-5 dropdown-toggle">Fr<span class="caret"></span></a>
+                <a href="#" data-toggle="dropdown" class="nav-link text-dark mt-5 dropdown-toggle">Fr<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">EN</a></li>
                 </ul>
                 </div>
-                <a href="#" class="nav-link  btn btn-sm bouton rounded-pill">Contact</a>
+                <!-- <a href="#" class="nav-link  btn btn-sm bouton rounded-pill">Contact</a> -->
+                <p class="bouton mb-1"><a href="#" class="btn btn-lg btn-danger text-start ms-5 bout-one">
+                    contact</a>
+                </p>
             </div>
         </div>
     </nav>
@@ -69,17 +71,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-lg-8 mt-5 ">
-                            <h1 class="font display-1 text-white text-start ">Simplon,<br>
+                            <h1 class="accueil-tilte display-1 text-white text-start">Simplon,<br>
                                 réseau de Fabriques numériques et inclusives</h1>
-                            <p class="font1 lead text-start text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p class="accueil-text lead text-start text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Suspendisse varius enim in eros elementum tristique.</p> 
                             <p class="lead mb-5 ">
-                                <a href="#" class="btn btn-lg btn-danger bouton1 rounded-pill">Nous Contacter</a>
+                                <a href="#" class="btn btn-lg btn-danger bouton-contact rounded-pill">Nous Contacter</a>
                             </p>
-                            <div class="d-md-flex justify-content-sm-center d-none boutonslide-accueil">
-                                <button class="slide-bounton me-3"></button>
-                                <button class="slide-bounton me-3"></button>
-                                <button class="slide1-bounton"></button>
+                            <div class="d-md-flex justify-content-sm-center d-none button-slide-accueil">
+                                <button class="slide1-bout me-3"></button>
+                                <button class="slide2-bout me-3"></button>
+                                <button class="slide3-bout"></button>
                             </div>
                         </div>
                     </div>
@@ -89,14 +91,14 @@
 
         <!-- Intro -->
         <section>
-            <div class="container-fluid introduction d-flex flex-md-column justify-content-center align-items-center">
+            <div class="container-fluid intro d-flex flex-md-column justify-content-center align-items-center">
                 <div class="row ms-5">
                     <div class="col-lg-6">
-                        <img src="image/women_manager.jpg" class="img img3 img-fluid  float-end me-3" alt="">
+                        <img src="images/women_manager.jpg" class="img img-women img-fluid  float-end me-3" alt="">
                     </div>
                     <div class="col-lg-6">
                         <h3>SIMPLON AU SENEGAL </h3>
-                        <p class="p-introduction">
+                        <p class="para-intro">
                             Affichant un taux de chômage supérieur à 16%, l’intégration des jeunes et des femmes sur le marché du travail est un enjeu crucial au Sénégal. Pour le gouvernement, et avec le plan “Sénégal 2025”, l’inclusion numérique est devenue une priorité, visant à doter le pays d'infrastructures numériques modernes et de faciliter la création de 35 000 emplois d'ici 2025.
                             Alors que le numérique représente déjà 8% du PIB national, les compétences tech se font encore rares.
                             Seformer aux métiers du numérique ouvre de belles perspectives d’avenir, quels que soient les secteurs d’activité.
@@ -108,9 +110,9 @@
 
         <!-- Nouvelles -->
         <section>
-            <div style="text-align: center;">
+            <!-- <div style="text-align: center;">
                 <h1 class="title-new">Nouvelles</h1>
-            </div>            
+            </div> -->
             <div class="container">
                 <div>
                     <h1 class="mt-5 text-center nouvelle">Nos Nouvelles</h1>
@@ -123,8 +125,8 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <div class="actu">
-                                <img src="images/sept25.png" class="img img-fluid date float-end me-3" alt="">
+                            <div class="actualites">
+                                <img src="images/sept25.png" class="img img-fluid date-actu float-end me-3" alt="">
                             </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
@@ -137,8 +139,8 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <div class="actu">
-                                <img src="images/sept30.png" class="img img-fluid date float-end me-3" alt="">
+                            <div class="actualites">
+                                <img src="images/sept30.png" class="img img-fluid date-actu float-end me-3" alt="">
                             </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
@@ -152,8 +154,8 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <div class="actu">
-                                <img src="images/sept22.png" class="img img-fluid date float-end me-3" alt="">
+                            <div class="actualites">
+                                <img src="images/sept22.png" class="img img-fluid date-actu float-end me-3" alt="">
                             </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
@@ -167,8 +169,8 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <div class="actu">
-                                <img src="images/sept12.png" class="img img-fluid date float-end me-3" alt="">
+                            <div class="actualites">
+                                <img src="images/sept12.png" class="img img-fluid date-actu float-end me-3" alt="">
                             </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
@@ -180,7 +182,7 @@
                         </div>
                     </div>
                     <div class="text-end ">
-                        <h4 class="p-plus-actualite">Plus d'Actualites <img src="images/plus1.png" class="img img-fluid" alt=""></h4>
+                        <h4 class="btn-plus-actualite">Plus d'Actualites <img src="images/plus1.png" class="img img-fluid" alt=""></h4>
                     </div>
                 </div>
             </div>
@@ -188,7 +190,7 @@
                 <div class="row">
                     <h3 class="text-start">Evenement a venir</h3>
                     <div class="col-md-6 col-sm-8">
-                        <div class="bg-danger mb-4 shadow-sm div-event-venir">
+                        <div class="bg-danger mb-4 shadow-sm event-a-venir">
                         <div class="container-fluid">
                             <div class="row text-white ">
                                 <div class=" col-md-3 mt-4">
@@ -216,27 +218,25 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-8">
-                        <div class="bg-danger mb-4 shadow-sm div-event-venir">
+                        <div class="bg-danger mb-4 shadow-sm event-a-venir">
                             <div class="container-fluid">
                                 <div class="row text-white ">
                                     <div class=" col-md-3 mt-4">
-                                        <h1> 23</h1>
+                                        <h1>23</h1>
                                         <p class="pb-5">Sept</p>
                                     </div>
-                                    <div class=" col-md-6 mt-4">
+                                    <div class="col-md-6 mt-4">
                                         <div class="row justify-content-center">
                                             <div class="col-md-6">
-                                                <p>Next Events</p>
-                                                
+                                                <p>Next Events</p>  
                                             </div>
                                             <div class="col-md-6 ">
                                                 <img src="images/Line.png" class="img img-fluid" alt="">
                                         </div>
-                                    
                                         </div>
-                                        <h4> Hackathon lorem et ipsum</h4>
+                                        <h4>Hackathon lorem et ipsum</h4>
                                     </div>
-                                    <div class=" col-md-3 mt-5">
+                                    <div class="col-md-3 mt-5">
                                         <img src="images/Arrowbutton.png" alt="" class="img img-fluid">
                                     </div>
                                 </div>
@@ -248,7 +248,7 @@
         </section>
 
         <!-- Decouvertes -->
-        <section class="accueil1 bg-dark d-flex justify-content-center align-items-center">
+        <section class="accueil-decouvert bg-dark d-flex justify-content-center align-items-center">
             <div class="container-fluid mb-5">
                 <div class="container mb-5">
                     <div class="row mb-5">
@@ -262,7 +262,7 @@
                 </div>
             </div>
         </section>
-        <aside class="accueil2 chiffre d-flex flex-column justify-content-center align-items-center">
+        <aside class="accueil-decouvert2 chiffre d-flex flex-column justify-content-center align-items-center">
             <div class="container-fluid mb-5">
                 <div class="container mb-5">
                     <div class="row mb-5">
@@ -272,10 +272,10 @@
                         </div>
                         <div class="col-lg-4 text-white">
                             <div class="d-flex flex-column">
-                                <h1 class="h1-decouverte display-1 ">385</h1>
+                                <h1 class="h1-decouverte display-1">385</h1>
                             </div>
-                            <div class="fontchiffre">
-                                <p class="text-start ">Apprenant.es formé.es depuis l’ouverture dans le pays</p> 
+                            <div class="chiffres">
+                                <p class="text-start">Apprenant.es formé.es depuis l’ouverture dans le pays</p> 
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex flex-column text-center">
@@ -291,32 +291,27 @@
         <section>
             <div class="container">
                 <div class="row mb-5">
-                    <h3 class="text-start">Formateur</h3>
-                    <div class="hr bg-dark text-dark ms-3">
-                     .
-                    </div>
+                    <h3 class="titre-forma">Formateur</h3>
                 </div>  
                 <div class="row d-flex justify-content-around">
                     <div class="col-md-6 col-sm-8 bg-white mb-4 Formateur">
                         <div class="container-fluid">
-                            <div class="row text-dark ">
+                            <div class="row">
                                 <div class="col-md-5 mt-4">
-                                    <img src="images/samba41.png" class="img img-fluid samba-photo " alt="">
+                                    <img src="images/samba41.png" class="img img-fluid samba-photo" alt="">
                                 </div>
-                                <div class="col-md-6 samba-text ">
-                                    <div class=" samba-nom " >
-                                        Samba Bery KANE
-                                    </div>
-                                    <hr>
+                                <div class="col-md-6 samba-text">
+                                    <div class="samba-name">Samba Bery KANE</div>
+                                    <div class="souligne-nom"></div>
                                     <h6>Formateur</h6>
-                                    <p >LoreJm ipsum dolor sit, amet consectetur aobcaecati, tempora esse distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.</p>
+                                    <p>LoreJm ipsum dolor sit, amet consectetur aobcaecati, tempora esse distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.</p>
                                 </div>
-                                <div class="col-md-1 ">
-                                    <div class="vr bg-danger text-danger ligne ">.</div>
+                                <div class="col-md-1">
+                                    <div class="tiret"></div>
                                 </div>
                                 </div>
                                 <div class="row">
-                                    <div class="voir-plus ">
+                                    <div class="voir-plus">
                                         <img src="images/voirplus.png" class="img img-fluid" alt="">
                                     </div>
                                 </div>
@@ -324,20 +319,18 @@
                         </div>
                         <div class="col-md-6 col-sm-8 bg-white mb-4 Formateur">
                             <div class="container-fluid">
-                                <div class="row text-dark ">
+                                <div class="row">
                                     <div class=" col-md-5 mt-4">
-                                        <img src="images/samba41.png" class="img img-fluid samba-photo " alt="">
+                                        <img src="images/samba41.png" class="img img-fluid samba-photo" alt="">
                                     </div>
-                                    <div class=" col-md-6 samba-text ">
-                                       <div class=" samba-nom " >
-                                            Samba Bery KANE
-                                       </div>
-                                       <hr>
+                                    <div class="col-md-6 samba-text">
+                                       <div class="samba-name">Samba Bery KANE</div>
+                                       <div class="souligne-nom"></div>
                                        <h6>Formateur</h6>
                                        <p >LoreJm ipsum dolor sit, amet consectetur aobcaecati, tempora esse distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.</p>
                                     </div>
                                     <div class="col-md-1 ">
-                                    <div class="vr bg-danger text-danger ligne ">.</div>
+                                    <div class="tiret"></div>
                                 </div>
                             </div>
                             <div class="row">
@@ -360,32 +353,25 @@
         <section>
             <div class="container py-5">
                 <div class="row mb-5">
-                    <h3 class="text-start">Apprenants</h3>
-                    <div class="hr bg-dark text-dark ms-3">
-                     .
-                    </div>
+                    <h3 class="titre">Apprenants</h3>
                 </div>
                 <div class="row bg-light">
                     <div class="col-sm-6 ">
-                        <div class="div1_app text-center">
-                        <p class="p_div1_app "> LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
-
-                        </p>  
+                        <div class="div1-app text-center">
+                            <p class="para-div-app">LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
+                        
+                            </p>  
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card mb-4 shadow-sm orbit">
-                            <div class=" card-header apprenant w-683 h-394 d-flex flex-column">
+                        <div class="card mb-4 shadow-sm learners-text">
+                            <div class="card-header apprenant w-683 h-394 d-flex flex-column">
                                 <img src="images/apprend.png" alt="" class="img img-fluid align-self-start mt-5 img-alumin">
                                 <img src="images/play.png" alt="" class="img img-fluid align-self-center">
                                 <img src="images/heure.png" class="img img-fluid align-self-end" alt="">
                             </div>
-                           
-                            <div class="hr-red bg-danger text-white ">
-                                .
-                            </div>
                             <div class="card-body">
-                                <p class="card-text orbit1 mb-5">
+                                <p class="card-text text-learn mb-5">
                                     Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
                                 </p>
                             </div>
@@ -398,19 +384,16 @@
         <!-- Histoire de la communaute -->
         <section>
             <div class="container py-5">
-                <div class="row ">
+                <div class="row">
                     <div class="col-sm-6">
-                        <div class="card mb-4 shadow-sm orbit">
-                            <div class="card-header hc w-683 h-394 d-flex flex-column">
+                        <div class="card mb-4 shadow-sm learners-text">
+                            <div class="card-header paragraph w-683 h-394 d-flex flex-column">
                                 <img src="images/histoire.png" alt="" class="img img-fluid align-self-start mt-5 img-alumin">
                                 <img src="images/play.png" alt="" class="img img-fluid align-self-center">
                                 <img src="images/heure.png" class="img img-fluid align-self-end" alt="">
                             </div>
-                            <div class="hr-red bg-danger text-white ">
-                                .
-                               </div>
                             <div class="card-body">
-                                <p class="card-text orbit1 mb-5">
+                                <p class="card-text text-learn mb-5">
                                     Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
                                 </p>
                             </div>
@@ -419,13 +402,11 @@
                     </div>
                 
                     <div class="col-sm-6 ">
-                        <h3 class="text-start">Histoire de la communauté</h3>
-                        <div class="hr bg-dark text-dark ms-3">
-                         .
-                        </div>
-                        <div class="div1_app text-center">
-                            <p class="p_div1_app "> LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
-                          </p>  
+                        <h3 class="titre">Histoire de la communauté</h3>
+                        <div class="div1-app text-center">
+                            <p class="para-div-app">LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
+                           
+                            </p>  
                         </div>
                     </div>
                 </div>
@@ -437,12 +418,9 @@
             <div class="container py-5">
                 <div class="row ">
                     <div class="col-sm-12">
-                        <h3 class="text-start">Équipe pédagogique</h3>
-                        <div class="hr bg-dark text-dark ms-3">
-                         .
-                        </div>
-                        <div class=" mt-3 shadow-sm orbit2">
-                            <img src="images/Team.png" alt="" class="img img-fluid img_obit w-100 h-100">
+                        <h3 class="titre">Équipe pédagogique</h3>
+                        <div class="mt-3 shadow-sm text-learn1">
+                            <img src="images/Team.png" alt="" class="img img-fluid w-100 h-100">
                         </div>
                     </div>
                 </div>
@@ -454,27 +432,22 @@
             <div class="container py-5">
                 <div class="row ">
                     <div class="col-sm-6 ">
-                        <h3 class="text-start">Alumni</h3>
-                        <div class="hr bg-dark text-dark ms-3">
-                         .
-                        </div>
-                        <div class="div1_app text-center">
-                            <p class="p_div1_app"> LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
-                          </p>  
+                        <h3 class="titre">Alumni</h3>
+                        <div class="div1-app text-center">
+                            <p class="para-div-app">LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere! Distinctio.
+                           
+                            </p>  
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card mb-4 shadow-sm orbit">
-                            <div class=" card-header alumin w-683 h-394 d-flex flex-column">
+                        <div class="card mb-4 shadow-sm learners-text">
+                            <div class="card-header alumin w-683 h-394 d-flex flex-column">
                                 <img src="images/Frame29.png" alt="" class="img img-fluid align-self-start mt-5 img-alumin">
                                 <img src="images/play.png" alt="" class="img img-fluid align-self-center">
                                 <img src="images/heure.png" class="img img-fluid align-self-end" alt="">
                             </div>
-                            <div class="hr-red bg-danger text-white ">
-                                .
-                               </div>
                             <div class="card-body">
-                                    <p class="card-text orbit1 mb-5">
+                                    <p class="card-text text-learn mb-5">
                                         Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
                                     </p>
                             </div>
@@ -488,16 +461,13 @@
         <section>
             <div class="container py-5">
                 <div class="row mb-5">
-                    <h3 class="text-start">les petites histoires de la communaute</h3>
-                    <div class="hr bg-dark text-dark ms-3">
-                     
-                    </div>
+                    <h3 class="titre">les petites histoires de la communaute</h3>
                 </div> 
-                <div class="row ">
+                <div class="row">
                     <div class="cercle1"></div>
-                    <div class="col-md-3 col-sm-5 divSamba">
+                    <div class="col-md-3 col-sm-5 sambaKane">
                         <div class="card mb-4 shadow-sm">
-                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid guillemer">
+                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid imagePng">
                             <div class="card-body">
                                 <p class="card-text">
                                     LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.
@@ -505,22 +475,22 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="ms-3 mb-2 ">
+                                    <div class="ms-3 mb-2">
                                         <img src="images/samba41.png" alt="" class="img img-fluid img-cercle rounded-circle">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="d-flex-column">
-                                        <h6 class="">Samba KANE</h6>
+                                        <h6>Samba KANE</h6>
                                         <p>Formateur</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-5  divSamba">
+                    <div class="col-md-3 col-sm-5 sambaKane">
                         <div class="card mb-4 shadow-sm">
-                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid guillemer">
+                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid imagePng">
                             <div class="card-body">
                                 <p class="card-text">
                                     LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.
@@ -528,22 +498,22 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="ms-3 mb-2 ">
+                                    <div class="ms-3 mb-2">
                                         <img src="images/samba41.png" alt="" class="img img-fluid img-cercle rounded-circle">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="d-flex-column">
-                                        <h6 class="">Samba KANE</h6>
+                                        <h6>Samba KANE</h6>
                                         <p>Formateur</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-5 divSamba">
+                    <div class="col-md-3 col-sm-5 sambaKane">
                         <div class="card mb-4 shadow-sm">
-                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid guillemer">
+                            <img src="images/guillemer.png" alt="" class=" mt-3 ms-3 img img-fluid imagePng">
                             <div class="card-body">
                                 <p class="card-text">
                                     LoreJm ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod eius nisi quidem velit tenetur, quia, animi sit obcaecati, tempora esse minus at saepe nobis distinctio consectetur eum tempore cere!.esse minus at saepe nobis distinctio consectetur eum tempore cere!.
@@ -551,13 +521,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="ms-3 mb-2 ">
+                                    <div class="ms-3 mb-2">
                                         <img src="images/samba41.png" alt="" class="img img-fluid img-cercle rounded-circle">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="d-flex-column">
-                                        <h6 class="">Samba KANE</h6>
+                                        <h6>Samba KANE</h6>
                                         <p>Formateur</p>
                                     </div>
                                 </div>
@@ -577,10 +547,10 @@
         <!-- Contact -->
         <section>
             <div class="container">
-                <div class=" text-center me-5 mb-5">
-                    <h1 class="nouvelle">Nous Contacter</h1>
+                <div class="text-center me-5 mb-5">
+                    <h1 class="coordonnee">Nous Contacter</h1>
                 </div>
-                <div class="row ">
+                <div class="row">
                     <div class="col-sm-12 col-lg-10 mt-5">
                         <form>
                             <div class="mb-5">
@@ -593,22 +563,22 @@
                             </div>
                             <textarea name="text" class="mb-5 message prenom" id="text" cols="30" rows="10" placeholder="Message*"></textarea>
                             <div class="form-check mb-2">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">I agree to terms et policy</label>
+                                <input type="checkbox" class="form-check-input" >
+                                <label class="form-check-label">I agree to terms et policy</label>
                             </div>
                             <a href="#" class="nav-link btn btn-sm bouton-envoyer mb-2 rounded-pill">Envoyer</a>
                             <p class="prenom mb-5">*these fields are required</p>
                         </form>
+
                     </div>
                     <div class="col-sm-12 col-lg-2">
                         <div class="row">
                             <div class="col-sm-3">
-                                <img src="images/loc.png" alt="" class="img img-fluid">
-                               
+                                <img src="images/loc.png" alt="" class="img img-fluid">  
                             </div>
                             <div class="col-sm-9">
                                 <h6 class="adress">Address</h6>
-                                <p class="prenom">Cité keur Goor Gi
+                                <p class="quartier">Cité keur Goor Gi
                                     Dakar, Sicap, Libeté 2 
                                     Senegal
                                 </p>
@@ -621,7 +591,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h6 class="adress">Téléphone</h6>
-                                <p class="prenom">(221) 77 456 78 90 <br>
+                                <p class="quartier">(221) 77 456 78 90 <br>
                                     (221) 77 654 32 10
                                 </p>
                             </div>
@@ -633,7 +603,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h6 class="adress">E-mail</h6>
-                                <p class="prenom">simplon@email.com<br>
+                                <p class="quartier">simplon@email.com<br>
                                     help@simplon.com
                                 </p>
                             </div>
@@ -650,15 +620,14 @@
                     <div class="row">
                         <div class="col-lg-3 mt-5 ">
                             <img src="images/copyright1.png" class="img img-fluid ms-5" alt="">
-                            <div class="rsg mt-5">      
-                                <img src="images/mdi_twitter.png" alt="" class="img img-fluid rs">
+                            <div class="social mt-5">      
+                                <img src="images/mdi_twitter.png" alt="" class="img img-fluid">
 
-                                <img src="images/bx_bxl-facebook.png" alt="" class="img img-fluid rs">
+                                <img src="images/bx_bxl-facebook.png" alt="" class="img img-fluid">
                                    
-                                <img src="images/uil_instagram.png" alt="" class="img img-fluid rs">
+                                <img src="images/uil_instagram.png" alt="" class="img img-fluid">
                                     
-                                <img src="images/logos_youtube-icon.png" alt="" class="img img-fluid rs">
-                                    
+                                <img src="images/logos_youtube-icon.png" alt="" class="img img-fluid">      
                             </div>
                         </div>
                         <div class="col-lg-3 mt-5">
@@ -679,28 +648,38 @@
                                    <strong>simplon@email.com </strong> <br>
                                     <strong>help@simplon.com</strong> 
                                <br>(221) 77 456 78 90
-                                    (221) 77 654 32 10</p>
+                                    (221) 77 654 32 10
+                                </p>
                             
                         </div>
                         <div class="col-lg-3 mt-5">
                             <div>
                             <h6 class="voirplusfooter">Notre Newsletter</h6>
-                           
                                 <p class="propos mt-5">Souscrivez-vous à notre newsletter pour ne manquer aucune de nos activités</p>
                                     <form class="mb-5">
-                                    <input type="text"  placeholder="Email">
-                                    <button class="btn btn-danger">joindre</button>
-                                </form>
+                                      <input type="text" placeholder="Email">
+                                      <button class="btn btn-danger">joindre</button>
+                                    </form>
                         </div>
-                       
                     </div>
                 </div>
             </section>
+            <div class="container-fluid">
+                <div class="row bg-danger text-white d-flex flex-row justify-content-between">
+                    <div class="col-sm-6">
+                        <p>©2021 Simplon. All rights reserved.</p>
+                    </div>
+                    <div class="col-sm-6 text-end">
+                        <p>made in with
+                            <img src="images/coeur.png" class="img img-fluid" alt="">
+                            by <strong>Simplonp4</strong>
+                        </p>
+                    </div>
+                   
+                </div>
+            </div>
         </footer>
 
     </main>
-        
-
-
 </body>
 </html>
